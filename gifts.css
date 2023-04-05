@@ -1,0 +1,278 @@
+body {
+    background-image: url(gift.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+    padding: 10px;
+    text-shadow: 5px 5px 5px rgb(183, 172, 172);
+    font-size: 50px;
+    background-color: rgb(127, 16, 127, 0.8);
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: rgb(120, 14, 120);
+    text-decoration: overline underline;
+}
+
+h2 {
+    color: rgb(97, 17, 115);
+    text-shadow: 3px 3px white;
+    font-family: 'Lobster', cursive;
+    margin: 10px;
+    text-align: center;
+}
+
+label {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    margin: 5px;
+}
+
+.text-input {
+    padding: 12px 20px;
+    border: none;
+    background-color: #faf1e6;
+    border: 1px solid rgb(127, 16, 127);
+    font-family: 'Dancing Script', cursive;
+}
+
+.btn {
+    background-color: rgb(127, 16, 127, 0.7);
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    flex: 1;
+    border: none;
+    padding: 5px;
+    color: #fff;
+}
+
+.btn:hover {
+    background-image: radial-gradient(violet, rgb(127, 16, 127));
+}
+
+.container {
+    display: flex;
+}
+
+.item {
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    flex: 1;
+    font-family: 'Dancing Script', cursive;
+    margin: 5px;
+    position: relative;
+}
+
+.selected {
+    flex: 5;
+}
+
+h4 {
+    position: absolute;
+    color: black;
+    background-color: #fff;
+    top: 15px;
+    left: 40px;
+    font-size: 0;
+}
+
+.selected h4 {
+    font-size: 40px;
+    transition: all 1s ease;
+}
+
+.par {
+    position: absolute;
+    color: black;
+    background-color: #fff;
+    top: 250px;
+    left: 40px;
+    font-size: 0;
+}
+
+.selected .par {
+    font-size: 20px;
+    transition: all 1s ease;
+}
+
+.price {
+    position: absolute;
+    color: black;
+    background-color: #fff;
+    bottom: 40px;
+    left: 40px;
+    font-size: 0;
+}
+
+.selected .price {
+    font-size: 35px;
+    transition: all 1s ease;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#btnThree {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Lobster', cursive;
+    background-color: rgba(134, 111, 134);
+}
+
+.one {
+    background-image: url('https://images.unsplash.com/photo-1586253634201-819749fa2d1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cG93ZXJiYW5rfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+}
+.two {
+    background-image: url('https://images.unsplash.com/photo-1603618090561-412154b4bd1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cm9ib3QlMjB2YWN1dW0lMjBjbGVhbmVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+}
+    
+.three {
+    background-image: url('https://luxedition.ru/upload/images-info/4b6/4b6a54f0c8190ee57d143128e3be33d7.jpg');
+}
+    
+.four {
+    background-image: url('https://nexer.ru/upload/iblock/430/4304b310fcef001b5d50d640df825e96.jpg');
+}
+    
+.five {
+    background-image: url('https://static-sl.insales.ru/images/products/1/5086/373019614/svetovoy-budilnik-rassvet.jpg');
+}
+    
+.six {
+    background-image: url('https://expertnov.ru/800/600/https/knygarnya.com/files/uploads/amazon-kindle-paperwhite-3-threefour.jpg');
+}
+
+.seven {
+    background-image: url('https://a-store63.ru/image/cache/catalog/E827503A-C2E4-4453-BDFE-34627BAA3913-500x500.png');
+}
+
+.eight {
+    background-image: url('https://tehnoteca.ru/img/1880/1879575/t_g_tg_157_11.jpg');
+}
+
+.nine {
+    background-image: url('https://i2.stat01.com/2/3915/139145214/075a3e/proektor-unic-yg-510-chernyj.jpg');
+}
+
+.ten {
+    background-image: url('https://images.unsplash.com/photo-1608354580875-30bd4168b351?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29mZmVlJTIwbWFrZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+}
+
+.eleven {
+    background-image: url('https://wallbox.ru/wallpapers/main/201338/1270933e4719162.jpg');
+}
+
+.twelve {
+    background-image: url('https://businessocean.ru/wp-content/uploads/1/d/a/1da017809dfe8393c8b041c18753d877.jpg');
+}
+
+.thirteen {
+    background-image: url('https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3BhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+}
+
+.fourteen {
+    background-image: url('https://static.insales-cdn.com/images/products/1/381/121266557/large_набор_Danny.png');
+}
+
+.fiveteen {
+    background-image: url('https://cdn2.static1-sima-land.com/items/4508754/0/700-nw.jpg');
+}
+
+.sixteen {
+    background-image: url('https://cdn2.static1-sima-land.com/items/3353473/2/700-nw.jpg');
+}
+
+.seventeen {
+    background-image: url('https://avatars.mds.yandex.net/get-mpic/4580925/img_id3725088247567912951.jpeg/orig');
+}
+
+.eighteen {
+    background-image: url('https://uprostim.com/wp-content/uploads/2020/11/6-19.jpg');
+}
+
+.nineteen {
+    background-image: url('https://zebra-nn.ru/uploads/posts/2020-12/1606979140_4650.jpg');
+}
+
+.twenty {
+    background-image: url('https://instacom.ru/wp-content/uploads/2018/11/181121164053-dolce-gabbana-shanghai-2-exlarge-169-1.jpg');
+}
+
+@media all and (max-width:800px) {
+    .selected h4 {
+        font-size: 15px;
+        left: 1px;
+    }
+
+    .selected .par {
+        font-size: 15px;
+        left: 1px;
+        top: 85px;
+    }
+
+    .selected .price {
+        font-size: 15px;
+        left: 10px;
+    }
+
+    .item {
+        height: 50vh;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2, h3, label, .btn {
+        font-size: 25px;
+    }
+}
+
+@media all and (max-width:500px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    h2, h3, label, .btn {
+        font-size: 17px;
+        padding: 5px;
+    }
+
+    .selected h4 {
+        font-size: 12px;
+    }
+
+    .selected .par {
+        font-size: 8px;
+    }
+
+    .selected .price {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 10px;
+    }
+}

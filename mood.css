@@ -1,0 +1,203 @@
+body {
+    background-image: url(pic2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #4672db;
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+    padding: 10px;
+    text-shadow: 5px 5px 5px white;
+    font-size: 50px;
+}
+
+h2 {
+    color: black;
+    text-shadow: 3px 3px white;
+    font-family: 'Lobster', cursive;
+    margin: 10px;
+    text-align: center;
+}
+
+.one {
+    background-color: rgb(81, 200, 247, .5);
+    margin-top: 0;
+}
+
+.headingOne {
+    display: flex;
+    justify-content: center;
+}
+
+.headingTwo {
+    display: flex;
+    justify-content: center;
+}
+
+.input-field {
+    display: flex;
+}
+
+#search {
+    flex: 1;
+    padding: 10px;
+    font-family: 'Comfortaa', cursive;
+    border-radius: 10px;
+    border: none;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 220px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(143, 204, 243, 0.4);
+    opacity: 0;
+}
+
+p {
+    color: black;
+    font-family: 'Comfortaa', cursive;
+}
+
+.container {
+    display: flex;
+}
+
+.audio-track {
+    width: 100%;
+    height: 5px;
+    background-color: #ace4f4;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.time {
+    width: 0;
+    height: 5px;
+    background-color: #4672db;
+}
+
+.playlist {
+    display: flex;
+    justify-content: center;
+}
+
+#controls {
+    border: 1px solid #4672db;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.play, .pause, .prev, .next {
+    background-color: rgb(133, 208, 251);
+    border: 1px solid rgb(177, 177, 242);
+    width: 100px;
+    padding: 3px;
+    margin: 3px;
+    font-family: 'Comfortaa', cursive;
+    border-radius: 10px;
+}
+
+li {
+    margin-top: 15px;
+    list-style: none;
+    font-family: 'Lobster', cursive;
+}
+
+.containerOne {
+    padding: 20px;
+    width: 80%;
+}
+
+.containerTwo {
+    width: auto;
+    padding: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#btnThree {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Lobster', cursive;
+    background-color: rgb(133, 208, 251);
+}
+
+@media all and (max-width:500px) {
+
+.one, h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+.container {
+    width: 45%;
+}
+
+img {
+    width: 150px;
+    height: 200px;
+}
+
+.image {
+    width: 100px;
+    height: 150px;
+}
+
+input {
+    width: 100%;
+}
+
+#controls {
+    width: 70%;
+    margin-left: 10px;
+}
+
+li, .play, .pause, .prev, .next {
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+ul {
+    padding: 0;
+}
+
+p, .snow {
+    display: none;
+}
+
+.containerOne, .containerTwo {
+margin: 0;
+}
+
+#nameTreck {
+    font-size: 10px;
+}
+}

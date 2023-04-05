@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>New Year</title>
+        <link rel="icon" href="tree.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="particles-js"></div>
+        <div class="content">
+            <nav class="menu">
+                <a href="mood.html" target="_blank">Новогоднее настроение</a>
+                <a href="prediction.html" target="_blank">Новогоднее предсказание</a>
+                <a href="recipes.html" target="_blank">Новогодние рецепты</a>
+                <a href="gifts.html" target="_blank">Идеи подарков</a>
+            </nav>
+        </div>
+        <audio id="myAudio" src="let it snow.mp3" loop></audio>
+        <audio id="myAudioTwo" src="ABBA2.mp3" loop autoplay></audio>
+        <audio id="chimes" src="chimes.mp3"></audio>
+        <div class="header">
+            <h1>До Нового года осталось:</h1>
+        </div>
+        <div class="btn">
+            <button id="myButton" class="classBtn"><img src="play.png" alt=""></button> 
+            <button id="myButtonTwo" class="classBtnTwo"><img src="play.png" alt=""></button> 
+        </div>
+        <div class="container">
+            <div class="newYear">
+                <div class="block">
+                    <h2 class="days"></h2>
+                </div>
+            </div>
+            <div class="newYear">
+                <div class="block">
+                    <h2 class="hours"></h2>
+                </div>
+            </div>
+            <div class="newYear">
+                <div class="block">
+                    <h2 class="minutes"></h2>
+                </div>
+            </div>
+            <div class="newYear">
+                <div class="block">
+                    <h2 class="seconds"></h2>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,128 @@
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(newYear.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: -1;
+    }
+
+body {
+    background-color:rgb(81, 176, 169, 0.7);
+    margin: 0;
+}
+
+.content {
+    padding: 20px;
+    background-color: rgb(81, 176, 169, 0.7);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    text-shadow: 5px 5px 5px rgb(92, 85, 47);
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.newYear {
+    background-color:rgb(81, 176, 169, 0.7);
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    text-shadow: 3px 1px black;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border-radius: 5px;
+    background-color: rgb(136, 124, 53, .8);
+    border: none;
+}
+
+.red {
+    color: rgb(200, 10, 10);
+    font-size: 100px;
+}
+
+.newBody {
+    background-image: url('happyNY.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.newBlock  {
+    background-color:rgb(200, 10, 10, .5);
+    box-shadow: 5px 5px 10px rgb(136, 124, 53, .8);
+}
+
+.newContent {
+    background-color:rgb(200, 10, 10, .5);
+}
+
+.classBtnTwo {
+    display: none;
+}
+
+@media all and (max-width:500px) {
+    
+    a {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 27px;
+    }
+    
+    .newYear {
+        width: 100px;
+        height: 70px;
+        margin: 5px;
+        margin-top: 50px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
